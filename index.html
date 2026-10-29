@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#142b49">
+  <meta name="description" content="AP3 Career Pathways — self-guided tools for professionalism, communication, leadership, and career development.">
+  <title>AP3 Career Pathways | Employee Learning Lab</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="data.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="AP3 Career Pathways home">
+        <span class="brand-mark">AP<span>3</span></span>
+        <span class="brand-text"><strong>CAREER PATHWAYS</strong><small>Employee Learning Lab</small></span>
+      </a>
+      <div class="side-caption">MY LEARNING</div>
+      <nav id="navigation"></nav>
+      <div class="sidebar-bottom">
+        <p class="micro-label">A PERSONAL INVESTMENT</p>
+        <p>Great leadership begins with the decisions you make today.</p>
+        <div class="sidebar-footer">Self-guided • Learn at your pace</div>
+      </div>
+    </aside>
+    <div class="site-area">
+      <header class="topbar">
+        <button class="icon-button menu-btn" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+        <span class="topbar-name">AP3 Transportation <span class="topbar-divider">/</span> Growth & Development</span>
+        <div class="topbar-actions">
+          <span class="save-status" id="saveStatus" role="status" aria-live="polite">Saved on this device</span>
+          <button class="btn btn-sm btn-line" data-action="download-backup">Back up work</button>
+        </div>
+      </header>
+      <main id="main" tabindex="-1"></main>
+      <footer class="site-footer"><span>AP3 Career Pathways — Your Career. Your Growth. Your Future.</span><span>Your work stays in this browser; no account or manager review required.</span></footer>
+    </div>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <div id="modalRoot"></div>
+</body>
+</html>
